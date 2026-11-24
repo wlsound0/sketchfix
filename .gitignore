@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物（每次 --out 都会重新生成，没必要进仓库）
+/out/
+out_*/
+*.log
+
+# 样张/临摹样本：体积大，且 make_demo.py 一条命令就能重新生成
+/samples/
+
+# 临时调试脚本
+tests/dbg*.py
+tests/out/
+
+# IDE 和自动生成的工程文件
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
